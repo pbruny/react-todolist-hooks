@@ -1,11 +1,14 @@
 import React from 'react';
-import './App.css';
+import { GlobalStyle, Container } from './styles/GlobalStyle'
+import Input from './components/Input'
+
 
 function App() {
   return (
-    <>
-      <h1>Hallo caralho</h1>
-    </>
+    <Container>
+      <Input />
+      <GlobalStyle />
+    </Container>
   );
 }
 
