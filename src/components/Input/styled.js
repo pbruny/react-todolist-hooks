@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Form = styled.form`
   max-width: 100%;
   display: flex;
+  margin-top: 64px;
 
   input {
     flex: 1;
@@ -15,6 +16,7 @@ export const Form = styled.form`
     outline: none;
     font-size: 24px;
     font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
 
     &::placeholder {
       color: #f6f6f6;
@@ -35,6 +37,11 @@ export const Form = styled.form`
   @media screen and (max-width: 480px) {
     input {
       font-size: 16px;
+      padding: 0;
+    }
+
+    button {
+      padding: 0;
     }
   }
 `
